@@ -43,17 +43,19 @@ node scripts/install.mjs --uninstall     # 卸载
 
 ## 游戏侧配置
 
-车万女仆 1.5.2+ 的「AI 站点」（LLM 站点）里新建 / 编辑 OpenAI 站点：
+车万女仆 1.5.2+ 的「AI 站点」（LLM 站点）配置，分两步：
+
+**第一步**，在站点列表里点「新建 OpenAI 站点」：
+
+![站点列表](assets/maid-site-list.png)
+
+**第二步**，弹出的编辑框里填三项：
 
 - **URL**：`http://127.0.0.1:8788/v1/chat/completions`
 - **Secret Key**：与上面 `secretKey` 一致
 - **Model**：填要投递的 DSH 会话 id（面板里可以看到），或随便填一个、让白名单单会话自动选中
 
 ![编辑 LLM 站点](assets/maid-site-edit.png)
-
-站点列表里点「新建 OpenAI 站点」即可：
-
-![站点列表](assets/maid-site-list.png)
 
 ## 工作原理
 
